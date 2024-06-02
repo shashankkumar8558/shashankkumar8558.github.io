@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  user-select: none;
+}
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+  padding: 10px;
+}
+.text-section {
+  max-width: 50%;
+  height: 80%;
+}
+.text-section h1 {
+  color: #db1212;
+  font-size: medium;
+  font-weight: 600;
+}
+.text-section span {
+  color: #080707;
+  font-weight: 600;
+  font-size: xx-large;
+}
+.text-section p {
+  color: #666;
+}
+.text-section button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+.image-section img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+  color: #8d8c8c;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check input {
+  margin-right: 10px;
+}
+
+.btn-custom {
+  background-color: #e42222;
+  border: none;
+  width: 100%;
+  color: white;
+  font-weight: 300;
+}
+
+.btn-custom:hover {
+  background-color: #ff5e80;
+  color: white;
+  font-weight: 300;
+}

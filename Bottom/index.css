@@ -1,0 +1,66 @@
+.last {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+.bottom-div {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+.heading {
+  font-weight: 400;
+  color: #ff3147;
+}
+.title {
+  font-weight: 800;
+  margin-bottom: 10%;
+}
+section {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 500;
+  width: 600px;
+  margin-bottom: 10%;
+}
+.jannat {
+  display: flex;
+  flex-direction: row;
+}
+
+.jannat .leading {
+  color: #ff4357;
+  font-size: 14px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+.jannat .trailing {
+  font-size: 14px;
+  font-weight: 800;
+  color: #808080;
+}
+
+.bottom {
+  position: relative;
+  background-color: #ff3147;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 305px;
+  bottom: 0;
+}
+.bottom img {
+  max-width: 80%;
+  height: auto;
+  margin-left: 16%;
+}
